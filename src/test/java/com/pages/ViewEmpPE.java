@@ -47,8 +47,6 @@ public class ViewEmpPE extends CommonMethods {
         @FindBy (id="contact_emp_zipcode")
         public WebElement zipcode;
         
-//        @FindBy (id="contact_country")
-//        public WebElement country ;          //This is a dropdown
         
         @FindBy (id="contact_emp_hm_telephone")
         public WebElement homeTel ;
@@ -72,6 +70,7 @@ public class ViewEmpPE extends CommonMethods {
         
         @FindBy (id="contact_country")
         public WebElement country;
+       
         
       
         
